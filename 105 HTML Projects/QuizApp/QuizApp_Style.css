@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+}
+
+body{
+    margin: 20%;
+    background-color: rgba(117, 100, 134, 0.692);
+}

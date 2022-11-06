@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="icon" href="RPS-Paper.png">
+
+    <link rel="stylesheet" href="QuizApp_Style.css">
+</head>
+<body>
+    
+<h1>Quiz Application</h1>
+<h2 id="correct"></h2>
+
+<fieldset style="display:show" name="Q1" id="Q1">
+	<legend>Question One) Favorite kind of tape?</legend></br>
+		<input type="radio" name="q1" value="a" onClick="addWrong(),Q1.disabled=true,hide('Q1'),show('Q2')"/>Gorilla Tape
+		<input type="radio" name="q1" value="b" onClick="addWrong(),Q1.disabled=true,hide('Q1'),show('Q2')"/>Surgical tape
+		<input type="radio" name="q1" value="c" onClick="addRight(),Q1.disabled=true,hide('Q1'),show('Q2')"/>Duct Tape
+		<input type="radio" name="q1" value="d" onClick="addWrong(),Q1.disabled=true,hide('Q1'),show('Q2')"/>Electrical tape</br></br>
+</fieldset>
+
+
+<fieldset style="display:none" name="Q2" id="Q2">
+	<legend>Question Two) Class room number?</legend></br>
+		<input type="radio" name="q2" value="a" onClick="addWrong(),Q2.disabled=true,hide('Q2'),show('Q3')"/>102
+		<input type="radio" name="q2" value="b" onClick="addRight(),Q2.disabled=true,hide('Q2'),show('Q3')"/>12
+		<input type="radio" name="q2" value="c" onClick="addWrong(),Q2.disabled=true,hide('Q2'),show('Q3')"/>10
+		<input type="radio" name="q2" value="d" onClick="addWrong(),Q2.disabled=true,hide('Q2'),show('Q3')"/>1002</br></br>
+</fieldset>
+
+<fieldset style="display:none" name="Q3" id="Q3">
+	<legend>Question Three) What time was Usher, in his drop top, cruisin the streets?</legend></br>
+		<input type="radio" name="q3" value="a" onClick="addWrong(),Q3.disabled=true,hide('Q3'),show('Q4')"/>Noon
+		<input type="radio" name="q3" value="b" onClick="addWrong(),Q3.disabled=true,hide('Q3'),show('Q4')"/>Midnight
+		<input type="radio" name="q3" value="c" onClick="addWrong(),Q3.disabled=true,hide('Q3'),show('Q4')"/>Lunchtime
+		<input type="radio" name="q3" value="d" onClick="addRight(),Q3.disabled=true,hide('Q3'),show('Q4')"/>7 O'Clock On The Dot</br></br>
+</fieldset>
+
+<fieldset style="display:none" name="Q4" id="Q4">
+	<legend>Question Four) Binary code for "A"?</legend></br>
+		<input type="radio" name="q4" value="a" onClick="addRight(),Q4.disabled=true,hide('Q4'),show('Q5')"/>01000001
+		<input type="radio" name="q4" value="b" onClick="addWrong(),Q4.disabled=true,hide('Q4'),show('Q5')"/>10111110
+		<input type="radio" name="q4" value="c" onClick="addWrong(),Q4.disabled=true,hide('Q4'),show('Q5')"/>01010001
+		<input type="radio" name="q4" value="d" onClick="addWrong(),Q4.disabled=true,hide('Q4'),show('Q5');"/>11111111</br></br>
+</fieldset>
+
+<fieldset style="display:none" name="Q5" id="Q5">
+	<legend>Question Five) A cowboy rode into town on Friday. What was the horses name?</legend></br>
+		<input type="radio" name="q5" value="a" onClick="addWrong(),Q5.disabled=true,hide('Q5'),show('Q6')"/>Mango
+		<input type="radio" name="q5" value="b" onClick="addWrong(),Q5.disabled=true,hide('Q5'),show('Q6')"/>John
+		<input type="radio" name="q5" value="c" onClick="addRight(),Q5.disabled=true,hide('Q5'),show('Q6')"/>Friday
+		<input type="radio" name="q5" value="d" onClick="addWrong(),Q5.disabled=true,hide('Q5'),show('Q6')"/>Seabiscuit</br></br>
+</fieldset>
+
+<fieldset style="display:none" name="Q6" id="Q6">
+	<legend>Question Six) According to Beyonce,everything he owned was in the box, to which direction?</legend></br>
+		<input type="radio" name="q6" value="a" onClick="addWrong(),Q6.disabled=true,hide('Q6'),show('Q7')"/>Straight ahead
+		<input type="radio" name="q6" value="b" onClick="addRight(),Q6.disabled=true,hide('Q6'),show('Q7')"/>To The Left
+		<input type="radio" name="q6" value="c" onClick="addWrong(),Q6.disabled=true,hide('Q6'),show('Q7')"/>To The Right
+		<input type="radio" name="q6" value="d" onClick="addWrong(),Q6.disabled=true,hide('Q6'),show('Q7')"/>Up In The Sky</br></br>
+</fieldset>
+
+<fieldset style="display:none" name="Q7" id="Q7">
+	<legend>Question Seven) How many months have 27 days in them?</legend></br>
+		<input type="radio" name="q7" value="a" onClick="addRight(),Q7.disabled=true,hide('Q7'),show('Q8')"/>12
+		<input type="radio" name="q7" value="b" onClick="addWrong(),Q7.disabled=true,hide('Q7'),show('Q8')"/>3
+		<input type="radio" name="q7" value="c" onClick="addWrong(),Q7.disabled=true,hide('Q7'),show('Q8')"/>1
+		<input type="radio" name="q7" value="d" onClick="addWrong(),Q7.disabled=true,hide('Q7'),show('Q8')"/>5</br></br>
+</fieldset>
+
+<fieldset style="display:none" name="Q8" id="Q8">
+	<legend>Question Eight) According to Kanye, she couldnt afford the car so she named her daughter?</legend></br>
+		<input type="radio" name="q8" value="a" onClick="addWrong(),Q8.disabled=true,hide('Q8'),show('Q9')"/>Tiffany
+		<input type="radio" name="q8" value="b" onClick="addRight(),Q8.disabled=true,hide('Q8'),show('Q9')"/>Alexis
+		<input type="radio" name="q8" value="c" onClick="addWrong(),Q8.disabled=true,hide('Q8'),show('Q9')"/>North West
+		<input type="radio" name="q8" value="d" onClick="addWrong(),Q8.disabled=true,hide('Q8'),show('Q9')"/>Kim Kardashian</br></br>
+</fieldset>
+
+<fieldset style="display:none" name="Q9" id="Q9">
+	<legend>Question Nine) What is the largest organ of the human body?</legend></br>
+		<input type="radio" name="q9" value="a" onClick="addWrong(),Q9.disabled=true,hide('Q9'),show('Q10')"/>Brain
+		<input type="radio" name="q9" value="b" onClick="addRight(),Q9.disabled=true,hide('Q9'),show('Q10')"/>Skin
+		<input type="radio" name="q9" value="c" onClick="addWrong(),Q9.disabled=true,hide('Q9'),show('Q10')"/>Lungs
+		<input type="radio" name="q9" value="d" onClick="addWrong(),Q9.disabled=true,hide('Q9'),show('Q10')"/>Liver</br></br>
+</fieldset>
+
+<fieldset style="display:none" name="Q10" id="Q10">
+	<legend>Question Ten) How long did Tevin Campbell want to talk?</legend></br>
+		<input type="radio" name="q10" value="a" onClick="addWrong(),Q10.disabled=true,hide('Q10'),show('reload')"/>Not At All
+		<input type="radio" name="q10" value="b" onClick="addRight(),Q10.disabled=true,hide('Q10'),show('reload')"/>For A Minute
+		<input type="radio" name="q10" value="c" onClick="addWrong(),Q10.disabled=true,hide('Q10'),show('reload')"/>A Millisecond
+		<input type="radio" name="q10" value="d" onClick="addWrong(),Q10.disabled=true,hide('Q10'),show('reload')"/>Forever</br></br>
+</fieldset>
+
+<button style="display:none" name="reload" id="reload" onclick="location.reload(true)">Reload</button>
+
+<script src="QuizApp_Brain.js"></script>
+</body>
+</html>

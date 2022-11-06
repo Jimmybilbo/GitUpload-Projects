@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="icon" href="Pictures/RPS-Trio-PageIcon.png">
+
+    <link rel="stylesheet" href="WA2-Style.css">
+<!-- I made a game similar to this in high school... time to see if I can remember anything and/or do better... -->
+</head>
+<body style="background-color:#e6e0e0">
+    <div>
+        <img src="Pictures/RPS-Banner.png" alt="Page Banner" width="25%">
+        <h1 class="bold italic" style="font-size: 150%;">THE GAME</h1>
+    </div>
+
+    <h3 id="theme" class="gold bold"></h3>
+    <button class="black bold" onclick="pixelStart()">Pixel Mode</button>
+    <button class="black bold strikethrough" onclick="">Icon Mode</button>
+
+    <div id="GameBoard">
+        <img id="rock" src="" alt="" onclick="rando(id)">
+        <img id="paper" src="" alt="" onclick="rando(id)">
+        <img id="scissor" src="" alt="" onclick="rando(id)">
+    </div>
+
+    <!-- <div style="border: dashed; margin-left: 25%; margin-right: 25%;">
+        <h1 class="bold underline">SCORECARD</h1>
+        <p class="black" id="score"></p>
+    </div> I couldn't figure put how to make this work... it works in console-->
+
+    <script src="WA2-Brain.js"></script>
+</body>
+</html>

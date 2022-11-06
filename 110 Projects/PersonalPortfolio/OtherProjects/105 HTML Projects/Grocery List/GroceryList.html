@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List Manager</title>
+    <link rel="icon" href="RPS-Paper.png">
+    <link rel="stylesheet" href="GroceryList_Style.css">
+</head>
+<body>
+    <div id="header" >
+        <h1>Grocery List Manager</h1>
+        <h2>Input Item(s)</h2>
+        <input onkeypress="enter(event)" id="inputText" type="text">&nbsp&nbsp
+        <select name="lists" id="lists" onchange="showLists(value)">Dropdown
+            <option value="1">All Items</option>
+            <option value="2">Purchased</option>
+            <option value="3">Unpurchased</option>
+        </select></br></br>
+        <button id="button" onclick="theButton(), document.getElementById('inputText').value = ''">Sumbit Button</button>
+    </div>
+
+    <ul id="list" class="bold"></ul>
+
+    <script src="GroceryList_Brain.js"></script>
+</body>
+</html>

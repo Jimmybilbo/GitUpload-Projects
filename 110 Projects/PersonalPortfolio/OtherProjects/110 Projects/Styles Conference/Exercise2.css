@@ -1,0 +1,270 @@
+/* Overall Style Start */
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+body {
+    font-family: Product Sans;
+    color: #FFFFFF;
+}
+
+.item {
+    padding: 10px;
+}
+
+h1, h2, h3, h4, h6 {
+    margin: 5px;
+}
+
+h5 {
+    font-weight: 200;
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
+}
+/* Overall Style End */
+
+/* Header Start */
+.head {
+    background-color: #202032 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 150px;
+}
+
+.leftSide {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+
+.dates {
+    display: flex;
+    color: #0CA39C;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 500px){
+    .menu {
+        flex-direction: column;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+}
+
+.tabs {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+a:link, a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+          
+a:hover, a:active {
+    color: #0CA39C;
+    text-decoration: none;
+}
+/* Header End */
+
+/* Hero Start */
+.hero {
+    background-image: linear-gradient(to right, rgba(0,128,0,0.4) , rgba(255,255,0,0.4));
+    color:#333;
+    min-height: 120px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc {
+    margin: 5px;
+    font-size: 20px;
+}
+/* Hero End */
+
+/* Body Start */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:#333;
+    min-height: 300px;
+    flex: 1;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    flex: 0 1 280px;
+}
+
+.avatar1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 10000px;
+    background-image: url(Images/Aaron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar2 {
+    width: 160px;
+    height: 160px;
+    border-radius: 10000px;
+    background-image: url(Images/Adam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar3 {
+    width: 160px;
+    height: 160px;
+    border-radius: 10000px;
+    background-image: url(Images/AJ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar4 {
+    width: 160px;
+    height: 160px;
+    border-radius: 10000px;
+    background-image: url(Images/Arman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar5 {
+    width: 160px;
+    height: 160px;
+    border-radius: 10000px;
+    background-image: url(Images/Bermon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar6 {
+    width: 160px;
+    height: 160px;
+    border-radius: 10000px;
+    background-image: url(Images/Shay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    background-image: url() ;
+
+}
+
+.socials {
+    text-align: center;
+}
+
+a.soc:link, a.soc:visited {
+    color: #333;
+    text-decoration: none;
+}
+          
+a.soc:hover, a.soc:active {
+    color: #0CA39C;
+    text-decoration: none;
+}
+/* Body End */
+
+/* Footer Start */
+.foot {
+    background-color: #202032 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 150px;
+}
+
+.leftSide {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.copy {
+    display: flex;
+    color: #0CA39C;
+    font-size: 15px;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 500px){
+    .menu {
+        flex-direction: column;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+}
+
+.tabs {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+a:link, a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+          
+a:hover, a:active {
+    color: #0CA39C;
+    text-decoration: none;
+}
+/* Footer End */

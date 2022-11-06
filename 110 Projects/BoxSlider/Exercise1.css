@@ -1,0 +1,43 @@
+@media screen and (min-width: 400px){
+    .flex-container {
+        display: flex;
+    }
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 600px;
+}
+
+.item {
+    margin: 3px;
+    color: #FFFFFF;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.head {
+    background-color: blue;
+}
+
+.hero {
+    background-color: darkred;
+    min-height: 100px;
+    flex: 1;
+}
+
+.content {
+    background-color: green;
+    min-height: 300px;
+    flex: 1;
+}
+
+.sidebar {
+    background-color: navy;
+    min-height: 200px;
+    flex: 0 1 150px;
+}
+
+.foot {
+    background-color: #333;
+}

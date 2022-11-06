@@ -1,0 +1,261 @@
+/* Start: Overall Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
+
+body { font-family: "Roboto", "Helvetica", "Sans-serif"; }
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #f69314;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 10px;
+
+}
+
+ion-icon{
+    font-size: 275%;
+    color: #f69314;
+    padding: 15px;
+}
+
+.whyt {
+    color: white;
+}
+/* End: Overall Style */
+
+/* Start: Header */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(52, 58, 64, 0.9), rgba(52, 58, 64, 0.9)), url("Images/hero_1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    height: 10vh;
+    border-bottom: solid gray 1px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width:65vw;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight:900;
+    font-size: 2rem;
+    color: #FFF
+}
+
+.nav-bar, li {
+    display: flex;
+    list-style: none;
+    padding: .5em .5em .5em 1.5em;
+}
+
+.nav-bar li a.unchanged  {
+    color: #FFF;
+}
+
+.nav-bar a:link, a:visited {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: gray;
+}
+
+.nav-bar a:hover {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: #FFF;
+    transition-duration: .6s;
+}
+/* End: Header */
+/* Start: Bod */
+.headbod {
+    width:35vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35vh;
+}
+/* End: Bod */
+/* Start: How To */
+.howitworks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    height: 30vh;
+}
+
+.howto {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.step {
+ width: 25%;
+}
+
+.mid {
+    margin: 0 25px;
+}
+/* End: How To */
+/* Start: Properties */
+.propertylist {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uptop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 63vw;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.properties {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65vw;
+}
+
+.property {
+    width: 22%;
+}
+
+.property-pic {
+    width: 100%;
+}
+
+.property-pic, .price, .details, .address {
+    padding-bottom: 12px;
+}
+
+.linky {
+    color: white;
+    background-color: #f69314;
+    padding: 10px 90px;
+    border-radius: 1000px;
+    margin: 40px 0;
+}
+/* End: Properties */
+/* Start: Agents */
+.agents-container {
+    width:65vw;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.head {
+    width:35vw;
+    padding: 50px 0;
+}
+
+.top-profiles {
+    display: flex;
+}
+
+.bot-profiles {
+    display: flex;
+}
+
+figure {
+    margin: 20px;
+}
+
+figcaption {
+    background-color: #ededee;
+}
+
+.agent-pic {
+    width:100%;
+}
+
+.desc {
+    padding: 15px
+}
+
+.desc p {
+    padding-top: 10px;
+    color:#5c5c5c
+}
+
+.figgy {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+/* End: Agents */
+/* Start: Best */
+.best-container {
+    display: flex;
+    justify-content: space-between;
+    width:65vw;
+    margin: 0 auto
+}
+
+.best-pic {
+    width: 45%;
+    height: auto;
+}
+
+.grouping {
+    width: 45%;
+}
+/* End: Best */

@@ -1,0 +1,55 @@
+@font-face {
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    }
+
+    body {
+        font-family: Product Sans;
+        float: center;
+    }
+
+    span {
+        font-size: 14px;
+        display: inline-block;
+            padding: 15px;
+            text-align: center;
+    }
+
+    span.r {
+        float: right;
+    }
+
+    img.main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search {
+        border: solid 1px;
+        border-radius: 15px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    #searchBar {
+        width:450px;
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        border-style: hidden;
+    }
+
+    div button {
+        font-family: Product Sans;
+        background-color: rgba(235, 233, 233, 0.582);
+        border-style: hidden;
+        height: 30px;
+        width: 175px;
+    }
+
+    .buttons {
+        margin-left: 36%;
+    }
